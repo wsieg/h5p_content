@@ -5,50 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embryologie</title>
     <link rel="stylesheet" href="./styles.css">
+    <style>
+        .text-container {
+            max-height: 90vh; /* Adjust the value as needed */
+            overflow-y: auto;
+        }
+
+        .h5p-container {
+            height: 100vh;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
     <div class="styled-container">
         <h1>1. Introduction et historique</h1>
-        <p>
-            Depuis des siècles on se demande comment un œuf se transforme en un
-            animal. Au 18ème siècle dominait l'idée selon laquelle les spermatozoïdes
-            les ovules contenaient un embryon qui était un minuscule enfant déjà
-            formé !
-        </p>
-        <p>
-            Ce courant d'idée portait le nom de <b>préformation</b>. Selon ce concept,
-            chaque embryon contenait l'ensemble des descendants.
-            L'ovisme part du principe que l'homuncule se trouve dans les gamètes
-            féminins, et que le sperme ne sert qu'à animer l'embryon.
-            L'animalculisme part du principe que l'homoncule se trouve dans les
-            gamètes masculins, et que la femelle ne sert que d'incubateur à la
-            future progéniture.
-        </p>
-        <p>
-            Elle fut mise de côté au XIXe siècle, mais retrouve aujourd'hui un
-            second souffle, certains scientifiques amenant que les êtres sont
-            préprogrammés dans les gènes, par conséquent préformés.
-        </p> 
-        <p>
-            Un courant opposé, nommé épigénèse, formulé 2000 ans auparavant par Aristote, postulait
-            que l'œuf devenait progressivement un animal via des transformations successives.
-            Les progrès de la microscopie ont, au 18 ème siècle, balayé la théorie de la préformation au
-            dépend de l'épigénèse.
-        <p>
-            De nos jours, bien que l'épigénèse soit acceptée, la théorie de la préformation, interprétée
-            différemment, est valable. En effet, dans un œuf, comme dans un spermatozoïde, se
-            trouvent des informations préexistantes. Il s'agit du patrimoine génétique.
-        </p>
+
+        <!-- Text container with paragraphs -->
+        <div class="text-container">
+            <p>
+                Depuis des siècles on se demande comment un œuf se transforme en
+                un animal. Au 18ème siècle dominait l'idée selon laquelle les spermatozoïdes
+                les ovules contenaient un embryon qui était un minuscule enfant déjà formé !
+            </p>
+            <p>
+                Ce courant d'idée portait le nom de préformation. Selon ce concept,
+                chaque embryon contenait l'ensemble des descendants.
+                L'ovisme part du principe que l'homuncule se trouve dans les gamètes
+                féminins, et que le sperme ne sert qu'à animer l'embryon.
+                L'animalculisme part du principe que l'homoncule se trouve dans les
+                gamètes masculins, et que la femelle ne sert que d'incubateur à la
+                future progéniture.
+            </p>
+            <p>
+                Elle fut mise de côté au XIXe siècle, mais retrouve aujourd'hui un
+                second souffle, certains scientifiques amenant que les êtres sont
+                préprogrammés dans les gènes, par conséquent préformés.
+            </p>
+            <p>
+                Un courant opposé, nommé épigénèse, formulé 2000 ans auparavant par Aristote, postulait
+                que l'œuf devenait progressivement un animal via des transformations successives.
+                Les progrès de la microscopie ont, au 18 ème siècle, balayé la théorie de la préformation au
+                dépend de l'épigénèse.
+            </p>
+        </div>
 
         <h2>Exercices</h2>
 
-        <!-- Embed H5P content using iframe -->
-        <div style="height: 100vh; overflow: hidden;">
+        <!-- H5P content containers -->
+        <div class="h5p-container">
             <iframe src="https://wsieg.github.io/h5p_content/test/h5p/swiss.html" scrolling="no" width="100%" height="100%" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
         </div>
 
-        <!-- Embed H5P content using iframe -->
-        <div style="height: 100vh; overflow: hidden;">
+        <div class="h5p-container">
             <iframe src="https://wsieg.github.io/h5p_content/test/h5p/find_embryo.html" scrolling="no" width="75%" height="100%" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
         </div>
     </div>
